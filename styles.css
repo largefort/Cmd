@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#terminal {
+    width: 90%;
+    max-width: 600px;
+    height: 80vh;
+    background-color: #000000;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+.input-line {
+    display: flex;
+}
+
+.prompt {
+    padding-right: 5px;
+}
+
+#input {
+    background: none;
+    border: none;
+    color: #ffffff;
+    outline: none;
+    flex: 1;
+}
+
+#output {
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+#pongCanvas {
+    border: 2px solid #ffffff;
+}
